@@ -1,7 +1,7 @@
 import React from 'react'
 import Products from '../../Components/Products/Product';
 
-const catagory = () => {
+const Catagory = () => {
   return (
     <div>
       <Products />
@@ -9,4 +9,4 @@ const catagory = () => {
   )
 }
 
-export default catagory;
+export default Catagory
