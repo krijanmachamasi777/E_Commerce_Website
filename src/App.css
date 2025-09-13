@@ -1,0 +1,74 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  width:100w;
+  min-height:100vh;
+}
+.appHeader {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: #001529; /* solid background */
+  color: #fff;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+
+.appHeader .appLogo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.appHeader .ant-menu {
+  background-color: #001529; /* solid background for menu */
+  color: #fff;
+  border-bottom: none;
+}
+
+.appHeader .ant-menu-item,
+.appHeader .ant-menu-submenu-title {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.appHeader .ant-menu-item:hover,
+.appHeader .ant-menu-submenu-title:hover {
+  color: #1890ff !important;
+}
+
+
+.shoppingCartIcon {
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.shoppingCartIcon:hover {
+  color: #1890ff;
+}
+pageContent{
+display: flex;
+flex: 1;
+overflow-y:auto;
+margin-top: 3px;
+}
+
+.itemCardImage{
+  height: 150px !important;
+  object-fit: scale-down;
+}
+.itemCard .itemCardBadge{
+  margin:8;
+}
+.appMenu{
+  border:none;
+}
+.productContainer{
+  padding: 8px;
+} 
