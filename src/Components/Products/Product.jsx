@@ -18,7 +18,7 @@ import {
   getProductById,
 } from "../../API";
 import { useParams } from "react-router-dom";
-import LoadingOverlay from "../../Components/Loading/LoadingOverlay"; // Make sure you have this component
+import LoadingOverlay from "../Loading/LoadingOverlay"; // Make sure you have this component
 
 const { Meta } = Card;
 
